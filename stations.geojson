@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station 1 Central",
+        "address": "TBD",
+        "type": "Fire + EMS",
+        "units": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7974,
+          32.7601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station 2 East Side",
+        "address": "TBD",
+        "type": "Fire + EMS",
+        "units": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7645,
+          32.7488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station 3 West",
+        "address": "TBD",
+        "type": "Fire + EMS",
+        "units": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.825,
+          32.7712
+        ]
+      }
+    }
+  ]
+}
