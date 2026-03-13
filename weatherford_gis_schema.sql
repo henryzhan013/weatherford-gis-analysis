@@ -79,9 +79,10 @@ GO
 -- Sample data: Weatherford fire stations
 INSERT INTO fire_stations (name, address, city, state, lat, lon, station_type, units, is_active, date_established)
 VALUES
-    ('Station 1 Central', '122 S Alamo St', 'Weatherford', 'TX', 32.7577280, -97.8006822, 'Fire + EMS', 6, 1, '1985-01-01'),
-    ('Station 2 East Side', '150 N Oakridge Dr', 'Hudson Oaks', 'TX', 32.7545750, -97.7122169, 'Fire + EMS', 4, 1, '1998-06-15'),
-    ('Station 3 West', '122 Atwood Court', 'Weatherford', 'TX', 32.7452730, -97.7428256, 'Fire + EMS', 2, 1, '2012-03-01');
+    ('Station 1 Central', '122 S Alamo St', 'Weatherford', 'TX', 32.7582, -97.8005, 'Fire + EMS', 6, 1, '1985-01-01'),
+    ('Station 2 East Side', '150 N Oakridge Dr', 'Hudson Oaks', 'TX', 32.7544, -97.6991, 'Fire + EMS', 4, 1, '1998-06-15'),
+    ('Station 3', '122 Atwood Court', 'Weatherford', 'TX', 32.7468, -97.7441, 'Fire + EMS', 2, 1, '2012-03-01'),
+    ('Station 4 West Park', '905 West Park Ave', 'Weatherford', 'TX', 32.7590, -97.8150, 'Fire + EMS', 2, 1, '2020-01-01');
 GO
 
 -- Sample response zones
@@ -95,7 +96,10 @@ VALUES
     (2, '15-min Response', 15, 65.4, 90.72),
     (3, '5-min Response', 5, 12.8, 17.75),
     (3, '10-min Response', 10, 35.2, 48.83),
-    (3, '15-min Response', 15, 62.1, 86.14);
+    (3, '15-min Response', 15, 62.1, 86.14),
+    (4, '5-min Response', 5, 14.2, 19.70),
+    (4, '10-min Response', 10, 36.8, 51.05),
+    (4, '15-min Response', 15, 63.5, 88.08);
 GO
 
 

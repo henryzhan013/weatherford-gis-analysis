@@ -22,9 +22,10 @@ CRS = "EPSG:4326"
 
 # Station locations (lat, lon)
 STATIONS = {
-    "Station 1 Central": (32.7577280, -97.8006822),
-    "Station 2 East Side": (32.7545750, -97.7122169),
-    "Station 3 West": (32.7452730, -97.7428256),
+    "Station 1 Central": (32.7582, -97.8005),
+    "Station 2 East Side": (32.7544, -97.6991),
+    "Station 3": (32.7468, -97.7441),
+    "Station 4 West Park": (32.7590, -97.8150),
 }
 
 TIME_THRESHOLDS = [5, 10, 15]  # minutes

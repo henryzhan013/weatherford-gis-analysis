@@ -10,9 +10,9 @@ Used Python (OSMnx, NetworkX, GeoPandas) to compute 5, 10, and 15-minute service
 
 ## Findings
 
-- **5-minute coverage: 80.27%** — Roughly 20% of the city is outside the 5-minute threshold (NFPA 1710 benchmark)
-- **10-minute coverage: 99.95%** — Nearly full coverage
-- **Coverage gaps at periphery** — The areas outside 5-minute coverage are mostly along the outer edges of the city
+- **5-minute coverage: 95.39%** — With 4 stations, most of the city is within the NFPA 1710 benchmark
+- **10-minute coverage: 100%** — Full coverage
+- **15-minute coverage: 100%** — Full coverage
 
 ## Recommendations
 
@@ -21,7 +21,7 @@ Used Python (OSMnx, NetworkX, GeoPandas) to compute 5, 10, and 15-minute service
 
 ## Deliverables
 
-- Web map: https://arcg.is/fGea5
+- Web map: https://arcg.is/Hv00m6
 - Database schema: `weatherford_gis_schema.sql`
 - Field Maps spec: `weatherford_field_maps_spec.md`
 - Analysis script: `analyze_coverage.py`

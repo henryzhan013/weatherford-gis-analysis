@@ -5,15 +5,15 @@
       "type": "Feature",
       "properties": {
         "name": "Station 1 Central",
-        "address": "TBD",
+        "address": "122 S Alamo St",
         "type": "Fire + EMS",
-        "units": 0
+        "units": 6
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.7974,
-          32.7601
+          -97.8005,
+          32.7582
         ]
       }
     },
@@ -21,31 +21,47 @@
       "type": "Feature",
       "properties": {
         "name": "Station 2 East Side",
-        "address": "TBD",
+        "address": "150 N Oakridge Dr",
         "type": "Fire + EMS",
-        "units": 0
+        "units": 4
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.7645,
-          32.7488
+          -97.6991,
+          32.7544
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Station 3 West",
-        "address": "TBD",
+        "name": "Station 3",
+        "address": "122 Atwood Court",
         "type": "Fire + EMS",
-        "units": 0
+        "units": 2
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.825,
-          32.7712
+          -97.7441,
+          32.7468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station 4 West Park",
+        "address": "905 West Park Ave",
+        "type": "Fire + EMS",
+        "units": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.815,
+          32.759
         ]
       }
     }

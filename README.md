@@ -2,7 +2,7 @@
 
 Network-based drive-time analysis for the City of Weatherford, TX fire department. Uses actual road network data from OpenStreetMap to calculate realistic emergency response zones (5, 10, 15 minute drive times), rather than simple radius buffers.
 
-**[Live Map](https://arcg.is/fGea5)**
+**[Live Map](https://arcg.is/Hv00m6)**
 
 ## What's here
 
@@ -23,11 +23,11 @@ Network-based drive-time analysis for the City of Weatherford, TX fire departmen
 
 | Zone | Coverage |
 |------|----------|
-| 5-min | 80.27% |
-| 10-min | 99.95% |
+| 5-min | 95.39% |
+| 10-min | 100% |
 | 15-min | 100% |
 
-About 20% of the city falls outside 5-minute response coverage, mostly at the periphery.
+With 4 stations, about 95% of the city is within 5-minute response coverage.
 
 ## Running it
 
